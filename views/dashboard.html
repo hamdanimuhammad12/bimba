@@ -1,0 +1,16 @@
+ 
+{{ template "Header" }}
+<div class="row">
+	{{ template "Menu"}}
+ 	<table>
+	    <th>ID</th>
+	    <th>Description</th>
+	    {{ range .User_v }}
+	    <tr>
+	      <td> {{ .Id }} </td>
+	      <td> {{ .Firstname }} </td>
+	    </tr>
+	    {{ end }}
+  </table>
+</div>
+{{ template "Footer" }}

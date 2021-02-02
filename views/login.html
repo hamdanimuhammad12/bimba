@@ -1,0 +1,120 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title> Bimba  </title>
+    <link rel="shortcut icon" style="max-width:10px;opacity: 1;filter: alpha(opacity=100);" href="/assets/dist/img/avatar5.png" type="image/x-icon">
+    <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
+    <link rel="stylesheet" href="/assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/assets/dist/css/AdminLTE.css">
+
+</head>
+<style>
+body {
+    background:url("/assets/dist/img/bimba1.png") no-repeat left bottom;
+    background-size: contain;
+}
+
+header {
+    background:#cce5ff;
+}
+
+
+.has-feedback .form-control-feedback {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    display: block;
+    width: 34px;
+    height: 34px;
+    line-height: 34px;
+    text-align: center;
+}
+
+</style>
+
+<body class="hold-transition fixed">
+<header style="height: 0px;">
+  <!--<div class="pull-right hidden-xs" style="background:url('img/pena.png');">
+  </div>
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-->
+</header>
+        <section class="contentLogin">
+            <div class="row">
+                <div class="col-md-6 col-sm-6 col-xs-12">
+          <div class="panel-body">
+                        <div class="login-box" >
+                                <!--<center><img class="hidden-lg img-responsive" src=" http://157.230.44.249/mitralakuin/assets/dist/img/" style="max-width:350px;opacity: 1;filter: alpha(opacity=100);">
+                                <img class="hidden-xs hidden-md hidden-sm img-responsive" src=" http://157.230.44.249/mitralakuin/assets/dist/img/" style="max-width:500px;opacity: 1;filter: alpha(opacity=50);"></center>-->
+                        </div>
+                    </div>
+
+                </div>
+                <div class="col-md-6 col-sm-6 col-xs-12">
+                    <div class="panel-body" >
+                        <div class="login-box">
+                            <center><h2><font color="#335eff">Halo,<br>Bimba Nirwana State</font></h2></center>
+                            <br>
+                            <center><h1><font color="#335eff">LOGIN</font></h1></center>
+                            {{ if (ne .Alert.Message "") }}
+                            <p class="alert alert-{{ .Alert.Type }}"> {{ .Alert.Message }} </p>
+                            {{ end }}
+                            <div class="login-box-body" style="background: rgb(255, 255, 255) transparent; background: rgba(255, 255, 255, 0.4);">
+                              <form action="" method="POST" class="margin-bottom-0">
+                                <div class="input-group">
+                                  <span class="input-group-addon" style="border-bottom: 1px #DDDDDD solid ;
+                                                 border-left: 0px #333333 solid ;
+                                                 border-right: 0px #333333 solid ;
+                                                 border-top: 0px #333333 solid ;
+                                                 margin-top: 10px;"><img src="/assets/dist/img/user5.png" style="max-width:25px;opacity: 1;filter: alpha(opacity=100);"></span>
+                                   <input style="border-bottom: 1px #DDDDDD solid ;
+                                                 border-left: 0px #333333 solid ;
+                                                 border-right: 0px #333333 solid ;
+                                                 border-top: 0px #333333 solid ;
+                                                 margin-top: 10px; 
+                                                 font-family: Times New Roman, Times, serif; " type="text" name="email" class="form-control" placeholder="email@example.com" value="">
+                                </div>
+
+                                <div class="input-group">
+                                  <span class="input-group-addon" style="border-bottom: 1px #DDDDDD solid ;
+                                                 border-left: 0px #333333 solid ;
+                                                 border-right: 0px #333333 solid ;
+                                                 border-top: 0px #333333 solid ;
+                                                 margin-top: 10px;"><img class="" src="/assets/dist/img/lock.png" style="max-width:20px;opacity: 1;filter: alpha(opacity=100);"></span>
+                                   <input style="border-bottom: 1px #DDDDDD solid ;
+                                                 border-left: 0px #333333 solid ;
+                                                 border-right: 0px #333333 solid ;
+                                                 border-top: 0px #333333 solid ;
+                                                 margin-top: 10px; 
+                                                 font-family: Times New Roman, Times, serif;"  type="password" name="password" class="form-control" placeholder="Password" value="">
+                                </div>
+
+                                <div class="row">
+                                  <div class="col-md-12">
+                                      <br>
+                                      <center><button type="submit" id="login-button" class="btn alert-warning"  style="padding-left:5em; padding-right:5em;"><font color="#000000"><b>Masuk</b></font></button></center>
+                                      <br>
+                                      <center><a href="#">Lupa Password?</a></center>
+                                      <center><a href="/register">Register</a></center>
+                                  </div>
+                                  <!-- /.col -->
+                                </div>
+                              </form>
+
+                            </div>
+                            <div>
+                            </div><br><br>
+                            <center class="copyright"><font size="3"><strong>Copyright &copy; 2019 Bimba.</strong> All rights reserved.</font> </center>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+</body>
+</html>
+
+
