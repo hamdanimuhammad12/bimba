@@ -1,10 +1,10 @@
 package routes
 
 import (
-	"lakuinv5dash/auth"
-	"lakuinv5dash/models"
-	"lakuinv5dash/sessions"
-	"lakuinv5dash/utils"
+	"bimba/auth"
+	"bimba/models"
+	"bimba/sessions"
+	"bimba/utils"
 	"net/http"
 
 	/*"log"*/

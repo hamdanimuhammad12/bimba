@@ -1,7 +1,7 @@
 package routes
 
 import (
-	"lakuinv5dash/middleware"
+	"bimba/middleware"
 	"net/http"
 
 	"github.com/gorilla/mux"

@@ -1,9 +1,9 @@
 package auth
 
 import (
+	"bimba/models"
+	"bimba/utils"
 	"errors"
-	"lakuinv5dash/models"
-	"lakuinv5dash/utils"
 )
 
 var (

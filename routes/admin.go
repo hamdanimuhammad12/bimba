@@ -1,10 +1,10 @@
 package routes
 
 import (
+	"bimba/models"
+	"bimba/sessions"
+	"bimba/utils"
 	"fmt"
-	"lakuinv5dash/models"
-	"lakuinv5dash/sessions"
-	"lakuinv5dash/utils"
 	"net/http"
 )
 
